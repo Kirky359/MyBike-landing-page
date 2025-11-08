@@ -38,27 +38,38 @@
 .icon-phone-container {
   position: relative;
   display: inline-block;
+  transition: transform 0.3s ease;
+}
 
-  .icon--phone-icon {
-    position: absolute;
-    right: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    white-space: nowrap;
+.icon--phone-icon {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  white-space: nowrap;
 
-    display: none;
-    margin-right: 8px;
-    color: $main-text-color;
-    text-decoration: none;
+  margin-right: 8px;
+  color: $main-text-color;
+  text-decoration: none;
 
-    @include on-tablet {
-      font-size: 18px;
-    }
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%) translateX(10px);
+  pointer-events: none;
+
+  transition: opacity 0.3s ease,
+              transform 0.3s ease,
+              visibility 0.3s;
+
+  @include on-tablet {
+    font-size: 18px;
   }
+}
 
-  @include on-tablet{
-    .icon--phone:hover + .icon--phone-icon {
-      display: inline;
-    }
+.icon-phone-container:hover {
+  .icon--phone-icon {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
+    pointer-events: auto;
   }
 }

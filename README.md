@@ -8,6 +8,26 @@ The project showcases popular bike models, highlights key features, and provides
 You can view the live version of the project here:
 
 * [DEMO LINK](https://Kirky359.github.io/MyBike-landing-page/)
+* [FIGMA DESIGN](https://www.figma.com/design/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0-1&p=f)
+
+---
+
+## Technologies Used
+
+* **HTML5:** For the semantic structure and layout of the page
+* **SCSS:** For advanced styling, variables, and nested CSS
+* **Parcel/Webpack (via mate-scripts):** For bundling, building the project, and live reload
+* **Git & GitHub Pages:** For version control and deployment
+
+---
+
+## Features
+
+* **Fully Responsive Design:** Adapts seamlessly to all screen sizes, from mobile to desktop
+* **Interactive Mobile Menu:** A clean, functional navigation menu for smaller devices
+* **Modern UI/UX:** A clean, minimalist design focused on user experience
+* **Smooth Scroll & Hovers:** Engaging hover effects and smooth scrolling for a polished feel
+* **Optimized Assets:** Bundled scripts and styles for faster loading
 
 ---
 
@@ -34,25 +54,6 @@ To get a local copy up and running, follow these simple steps.
     ```bash
     npm start
     ```
-
----
-
-## Technologies Used
-
-* **HTML5:** For the semantic structure and layout of the page
-* **SCSS:** For advanced styling, variables, and nested CSS
-* **Parcel/Webpack (via mate-scripts):** For bundling, building the project, and live reload
-* **Git & GitHub Pages:** For version control and deployment
-
----
-
-## Features
-
-* **Fully Responsive Design:** Adapts seamlessly to all screen sizes, from mobile to desktop
-* **Interactive Mobile Menu:** A clean, functional navigation menu for smaller devices
-* **Modern UI/UX:** A clean, minimalist design focused on user experience
-* **Smooth Scroll & Hovers:** Engaging hover effects and smooth scrolling for a polished feel
-* **Optimized Assets:** Bundled scripts and styles for faster loading
 
 ---
 
