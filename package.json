@@ -1,6 +1,7 @@
 {
   "name": "gulp-boilerplate",
   "version": "1.0.0",
+  "homepage": "https://Kirky359.github.io/MyBike-landing-page",
   "description": "Frontend boilerplate based on gulp",
   "scripts": {
     "init": "mate-scripts init",
